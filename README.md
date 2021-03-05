@@ -4,15 +4,12 @@
 
 ## 2.dva-core 写法(适用 TS)
 
-> 可以先了解 dva 的用法，文档：[dva 官方文档](https://dvajs.com/)
-> 或者手动操作，具体使用如下步骤：
->
-> > 1 安装 dva：npm install dva-core
-> > 2 项目 ./src 中新建 dva.ts
-> >
-> > >
+- a. 可以先了解 dva 的用法，文档：[dva 官方文档](https://dvajs.com/)
+- b. 或者手动操作，具体使用如下步骤：
+  - 1 安装 dva：npm install dva-core
+  - 2 项目 ./src 中新建 dva.ts
 
-    ```
+```
     import { create } from 'dva-core';
 
     let app;
@@ -38,9 +35,4 @@
             return app.dispatch;
         },
     };
-
-```
-
-> > >
-
 ```
